@@ -1,0 +1,29 @@
+NOTE: The wallet you enter in config pays for jito tips and sends all the SOL/WSOL
+
+1.
+    a) Run 'npm i'
+
+    b) Edit config.ts, wallet private key and rpc.
+
+    c) ts-node .\main.ts
+
+2. Run all steps in order and don't create new keypairs unless you reclaim your SOL!!!
+
+    a) (1) Create new keypairs for your volume :))
+
+    b) (2) Distributes SOL/WSOL
+	
+	i) (1) The SOL you send here is ONLY FOR GAS FEES!!! I recommend anywhere from 0.05-1
+
+	ii) (2) This is the amount of SOL each keypair will volume spam and rotate.  
+		You can enter any custom amount to look natural ;)
+
+    c) (3) Simulate all volume and calculates all jito tip fees and raydium 5bps fee to see EXACTLY how much
+	   you will spend in order to achieve the volume you want.  This took me 8 hours to do all this math so appriciate
+	   it xD.
+
+    d) (4) VOLUME BOTTT!!! At this step you have reach the step to get your volume! I recommend setting a timeout between the
+	   swaps at around 3-10 seconds to look natural.
+
+    e) (5) Retrieve all funds from the keypairs AUTOMATICALLY.  This will retrieve all the WSOL and SOL you sent and send
+	   it to the wallet in the config file.
